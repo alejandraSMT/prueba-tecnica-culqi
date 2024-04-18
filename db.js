@@ -15,8 +15,6 @@ const options = {
     useNewUrlParser: true
   };
 
-//const url = `mongodb+srv://alejandrasmt:${DB_PASS}@pruebaculqi.ka4tqgo.mongodb.net/?retryWrites=true&w=majority&appName=PruebaCulqi`
-
 mongoose.connect(
   MONGODB_URI, options).then( function() {
   console.log('MongoDB is connected');

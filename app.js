@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/culqi',require("./routes/result_router.js"))
 
 app.get('/',function(req,res){
-  res.send("Hola mundo");
+  res.send("Server connected!");
 });
 
 app.listen(port, function () {

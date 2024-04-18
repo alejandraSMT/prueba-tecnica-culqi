@@ -5,7 +5,7 @@ function getIndexes(s, words) {
     var result = []
     var map = new Map()
 
-    if(s < concatWordLength || s == "" || words == []){
+    if(s.length < concatWordLength || s == "" || words == []){
         return []
     }
 
