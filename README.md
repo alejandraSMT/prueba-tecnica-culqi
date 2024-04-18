@@ -200,7 +200,10 @@ MongoDB is connected
 Una vez se verificó que todo está conectado y creado correctamente, se pueden realizar consultas.
 
 ### 2.8 Endpoints
-Los endpoints que se han trabajado hacen uso de **express.Router**, por lo que no se accede a todos con la url base de localhost:4000/, sino que siguen cierta estructura.
+Los endpoints que se han trabajado hacen uso de **express.Router**, por lo que no se accede a todos con la url base de http:localhost:4000/, sino que siguen cierta estructura.
+
+:heavy_exclamation_mark::heavy_exclamation_mark: **SE PUEDEN VISUALIZAR LOS RESULTADOS EN EL NAVEGADOR O [POSTMAN](#https://www.postman.com/downloads/)** :heavy_exclamation_mark::heavy_exclamation_mark:
+
 #### 2.8.1 Verificar conexión
 Este endpoint es uno base para verificar la conexión con MongoDB
 ```
