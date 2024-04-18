@@ -156,7 +156,7 @@ for(var i= 0; i < (s.length - concatWordLength)+1; i++){
 A continuación, indicaré el paso a paso para poder visualizar los resultados de la prueba. Desde clonar el proyecto hasta utilizar la línea de comandos de Windows PowerShell para consultar la colección "culqi" en la base de datos Mongodb dentro del Docker container.
 
 ### 2.1 Instalar Git
-Primero, se necesita instalar Git para poder clonar este repositorio. Se puede descargar en este [enlace](#https://git-scm.com/download/win) para **Windows** en caso no se tenga instalado previamente.
+Primero, se necesita instalar Git para poder clonar este repositorio. Se puede descargar en este [enlace](https://git-scm.com/download/win) para **Windows** en caso no se tenga instalado previamente.
 
 ### 2.2 Clonar el proyecto en una carpeta
 
@@ -202,7 +202,7 @@ Una vez se verificó que todo está conectado y creado correctamente, se pueden 
 ### 2.8 Endpoints
 Los endpoints que se han trabajado hacen uso de **express.Router**, por lo que no se accede a todos con la url base de http:localhost:4000/, sino que siguen cierta estructura.
 
-:heavy_exclamation_mark::heavy_exclamation_mark: **SE PUEDEN VISUALIZAR LOS RESULTADOS EN EL NAVEGADOR O [POSTMAN](#https://www.postman.com/downloads/)** :heavy_exclamation_mark::heavy_exclamation_mark:
+:heavy_exclamation_mark::heavy_exclamation_mark: **SE PUEDEN VISUALIZAR LOS RESULTADOS EN EL NAVEGADOR O [POSTMAN](https://www.postman.com/downloads/)** :heavy_exclamation_mark::heavy_exclamation_mark:
 
 #### 2.8.1 Verificar conexión
 Este endpoint es uno base para verificar la conexión con MongoDB
@@ -401,7 +401,7 @@ En el ```docker-compose.yml```
 * Creación de los servicios/contenedores
   * ```mongo_db```
     * Se define como nombre del contenedor ```db_container```
-    * La imagen a utilizar es la versión más reciente de mongo (oficial de la página de [docker hub](#https://hub.docker.com/_/mongo/tags)) ```mongo:latest```
+    * La imagen a utilizar es la versión más reciente de mongo (oficial de la página de [docker hub](https://hub.docker.com/_/mongo/tags)) ```mongo:latest```
     * Se define que siempre debe reiniciarse si es que se detiene el servicio de mongo_db
     * **Volumes** permite definir el directorio dentro de la base de datos de MongoDB donde se guardarán los datos, esto con el fin de evitar pérdida de data cada que se detenga y vuelva a levantar el servicio
   * ```api```
